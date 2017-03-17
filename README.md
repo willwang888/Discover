@@ -4,7 +4,7 @@ Save your favorite locations into your local favorites and access them again.
 
 Will be adding more features.
 
-###Built with:
+#Built with:
   * React.js
   * Google Maps API
   * Moment.js
