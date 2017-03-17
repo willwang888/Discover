@@ -34,14 +34,11 @@ var App = React.createClass ({
 		var self = this;
 		// If already in favorites, removeFromFavorites
 		// Else, addToFavorites
-		console.log("IN HERE");
 		if(self.inFavorites(checkAddress)) {
-			console.log("REMOVING FROM FAVORITES");
 			self.removeFromFavorites(checkAddress);
 		}
 
 		else {
-			console.log("ADDING TO FAVORITES");
 			self.addToFavorites(checkAddress);
 		}
 	},
@@ -79,7 +76,6 @@ var App = React.createClass ({
 		}
 
 		if(index !== -1) {
-			console.log("ADDRESS NOT FOUND");
 			// Take it out of the array
 			tempFavorites.splice(index, 1);
 
